@@ -1,0 +1,22 @@
+{
+    "name": "solwin/testimonial",
+    "description": "This extension which allows you to have testimonials in your store.",
+    "type": "magento2-module",
+    "version": "3.0.1",
+    "authors": [
+        {
+            "name": "Solwin",
+            "email": "stdabhoya@yahoo.com",
+            "homepage": "https://www.solwininfotech.com/",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Solwin\\Testimonial\\": ""
+        }
+    }
+}
